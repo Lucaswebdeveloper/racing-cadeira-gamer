@@ -1,0 +1,594 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-container {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    width: 1150px;
+    height: auto;
+    color: #fff;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo-racing{
+    width: 450px;
+    height: auto;
+    color: #fff;
+}
+.box-content-cadeira .logo-elg{
+    width: 200px;
+}
+
+.content-container section{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.box-content-cadeira{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.box-content-cadeira .cadeira{
+    width: 500px;
+}
+.text{
+    padding-left: 80px;
+    width: 80%;
+}
+
+.text > strong {
+    font-size: 1.2rem;
+}
+.text h3{
+    width: 300px;
+    color: red;
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 50px red;
+
+}
+.text span p {
+    width: 80%;
+    height: 200px;
+    font-size: 2rem;
+}
+.box-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-info img{
+    margin: 0 70px;
+    width: 250px;
+    margin-bottom: 50px;
+
+}
+.box-container{
+    display: flex;
+   
+   
+   
+}
+.box-container span p{
+    width: 40%;
+    height: auto;
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-left: 300px;
+    margin-top: 140px;
+
+}
+.box-container.box-cadeira-3{
+    margin: 0 150px;
+
+}
+.box-container .cadeira-3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.box-container .cadeira-3 p{
+    width: 100%;
+    margin: 0 auto;
+}
+.box-container.box-cadeira-3 img{
+    width: 400px;
+}
+
+
+.box-piloto{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+.box-piloto .pilot{
+    height: 600px;
+}
+.box-piloto img{
+    height: 300px;
+}
+
+footer{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+@media only screen and (min-width:640px) and (max-width:1000px){
+    .content-container {
+        width: 100%;
+
+    }
+    .content-container section{
+        width: 100%;
+        margin: 0;
+       
+    }
+    .logo{
+        margin: 30px;
+    }
+    .logo-racing {
+        width: 250px;
+    }
+    .text {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+       
+    }
+    .text > h2{
+        font-size: 1.2rem;
+        margin-top: 0;
+        margin-left: 18%;
+        margin-bottom: 25%;
+    }
+    .text > strong {
+        font-size: 1rem;
+        margin-top: 10%;
+       
+    }
+    .text h3 {
+        width: 100%;
+        font-size: 2rem;
+
+    }
+    .text span p {
+        width: 100%;
+        height: auto;
+        font-size: 1.5rem;
+    }
+    .box-content-cadeira .logo-elg{
+        width: 50%;
+    }
+    .box-content-cadeira .cadeira{
+        width: 300px;
+    }
+    .box-info {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .box-info img {
+        margin: 0 10px;
+        width: 25%;
+    }
+    .box-container.box-cadeira-3{
+        width: 90%;
+        height: auto;
+        margin: 0 50px;
+    }
+
+    .box-container {
+   
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-container img{
+        width: 50%;
+        height: 50%;
+    }
+    .box-container span p {
+        width: 50%;
+         margin: 0;
+         font-size: 1.5rem;
+         font-weight: 100;
+       
+      
+    }
+    .txt-left{
+        padding: 0;
+    }
+    .box-1{
+        margin-left: 10%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .box-2{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+    }
+    .box-4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-container.box-cadeira-3 .img-cadeira-3{
+        height: auto;
+        width: 45%;
+    }
+    .box-container .cadeira-3 p{
+      
+        margin-right: 30px;
+    }
+    .box-piloto{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box-piloto img{
+        width: 30%;
+        height: 25%;
+        margin-right: 25%;
+    }
+    .box-piloto .pilot{
+        width:350px;
+        height: 350px;
+
+    }
+    footer{
+        height: auto;
+    }
+ 
+
+}
+
+@media only screen and (min-width:320px) and (max-width:640px){
+    .content-container {
+        width: 100%;
+
+    }
+    .content-container section{
+        margin: 3%;
+    }
+    .logo{
+        margin: 0px;
+    }
+    .logo-racing {
+        width: 100%;
+    }
+    .text{
+        width: 55%;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .box-content-logo .text > h2{
+        width: 130px;
+        font-size: 0.8rem;
+        margin-bottom: 40px;
+        margin-top: 0;
+        margin-left: 20%;
+    }
+    .text > strong {
+        font-size: 0.9rem;
+      
+    }
+    .text h3 {
+        font-size: 1.5rem;
+        width: auto; 
+        font-weight: bold;  
+     }
+     .text span p {
+        width: 100px;
+        height: auto;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .box-content-cadeira .logo-elg {
+        width: 50%;
+    }
+    .box-content-cadeira .cadeira {
+        width: 100%;
+    }
+    .box-info img {
+        margin: 5% 5%;
+        width: 25%;
+        margin-bottom: 50px;
+    }
+    .box-container {
+        flex-direction: row;
+        width: 100%;
+    }
+    .box-container .cadeira-2-box{
+        width: 50%;
+        height: 50%;
+    }
+    .box-container span p {
+        width: 80%;
+        height: auto;
+        font-size: 1rem;
+        font-weight: 100;
+       
+       
+      
+    }
+    .box-1{
+        width: 50%;
+
+    }
+        .box-1 .txt-cadeira{
+
+            margin: 40% 10%;
+          
+
+        }
+        .box-2 .txt-left{
+            margin: 30% 10%;
+
+        }
+        .box-container.box-cadeira-3 {
+            margin: 0;
+        }
+        .box-container.box-cadeira-3 img {
+            width: 60%;
+        }
+        .box-4{
+            height: auto;
+        }
+        .box-4 .txt-cadeira{
+
+            margin: 20% 10%;
+          
+
+        }
+        .box-2 .txt-left{
+            margin: 30% 10%;
+
+        }
+        .box-piloto .pilot {
+            width: 60%;
+            height: auto;
+        }
+        .box-piloto img {
+            width: 30%;
+            height: auto;
+        }
+        footer img{
+            width: 30%;
+            height: 30%;
+
+        }
+
+
+
+}
+@media only screen and (min-width: 151px) and (max-width:319px){
+    .container{
+          width: 100%;
+    }
+    .content-container{
+        width: 100%;
+    }
+    .content-container section {
+        margin: 0;
+        padding: 5%;
+    }
+    .logo-racing {
+        width: 100%;
+    }
+    .text {
+        width: 100%;
+         padding: 5%;
+         margin: 0;
+    }
+    .box-content-logo .text > h2 {
+        font-size: 0.5rem;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .text > strong {
+        font-size: 0.4rem;
+    }
+    .text h3{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .text span p {
+        width: 100%;
+        height: auto;
+        font-size: 0.5rem;
+    }
+    .box-content-cadeira .logo-elg {
+        width: 50%;
+    }
+    .box-content-cadeira .cadeira {
+        width: 100%;
+    }
+    .box-info img {
+        margin: 0 5%;
+        width: 50%;
+        margin-bottom: 15%;
+    }
+    .box-container .cadeira-2-box {
+        width: 45%;
+        height: 45%;
+    }
+    .box-container span p {
+        font-size: 0.5rem;
+        margin: 0;
+        width: 90%;
+        text-align: center;
+        padding-top: 30%;
+       
+    }
+    .box-container.box-cadeira-3 {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20%;
+    }
+    .box-container.box-cadeira-3 img {
+        width: 100%;
+        height: auto;
+    }
+    .box-container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20%;
+    }
+    .box-piloto .pilot {
+        width: 50%;
+        height: auto;
+    }
+    .box-piloto img {
+        width: 50%;
+        height: auto;
+    }
+    footer img{
+        width: 50%;
+    }
+    .box-content-cadeira .logo-elg {
+        width: 50%;
+    }
+    .box-content-cadeira .cadeira {
+        width: 100%;
+    }
+    .box-content-logo{
+        width: 45%;
+    }
+    .box-info img {
+        margin: 0 5%;
+        width: 45%;
+        margin-bottom: 15%;
+    }
+    .box-info{
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width: 50px) and (max-width:150px){
+    
+
+    .content-container{
+        width: 100%;
+    }
+    .content-container section {
+        margin: 0;
+    }
+    .logo-racing {
+        width: 70%;
+    }
+    .text {
+         padding: 1%;
+         margin: 0;
+    }
+    .box-content-logo .text > h2 {
+        font-size: 0.2rem;
+        width: 100%;
+        margin: 0;
+    }
+    .text > strong {
+        font-size: 0.3rem;
+    }
+    .text h3{
+        font-size: 0.4rem;
+    }
+    .text span p {
+        width: 100%;
+        height: auto;
+        font-size: 0.3rem;
+    }
+    .box-content-cadeira .logo-elg {
+        width: 50%;
+    }
+    .box-content-cadeira .cadeira {
+        width: 100%;
+    }
+    .box-info img {
+        margin: 0 5%;
+        width: 50%;
+        margin-bottom: 15%;
+    }
+    .box-container .cadeira-2-box {
+        width: 100%;
+        height: 100%;
+    }
+    .box-container span p {
+        font-size: 0.4rem;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .box-container.box-cadeira-3 {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20%;
+    }
+    .box-container.box-cadeira-3 img {
+        width: 100%;
+        height: auto;
+    }
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20%;
+    }
+    .box-piloto .pilot {
+        width: 50%;
+        height: auto;
+    }
+    .box-piloto img {
+        width: 50%;
+        height: auto;
+    }
+    footer img{
+        width: 50%;
+    }
+    .box-content-cadeira .logo-elg {
+        width: 50%;
+    }
+    .box-content-cadeira .cadeira {
+        width: 100%;
+    }
+    .box-content-logo{
+        width: 45%;
+    }
+    .box-info img {
+        margin: 0 5%;
+        width: 45%;
+        margin-bottom: 15%;
+    }
+    .box-info{
+        width: 90%;
+    }
+
+}
